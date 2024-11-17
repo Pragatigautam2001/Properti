@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Property Management Services">
+  <title>Property Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Welcome to [Viraj buildcon]</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner Section -->
+  <section id="banner">
+    <div class="banner-content">
+      <h2>Find Your Next Home</h2>
+      <p>Discover the best properties in your area.</p>
+      <a href="#properties" class="btn">Explore Properties</a>
+    </div>
+  </section>
+
+  <!-- Featured Properties Section -->
+  <section id="properties">
+    <div class="container">
+      <h2>Featured Properties</h2>
+      <div class="property-grid">
+        <div class="property-card">
+          <img src="img_girl.jpg" alt="img_girl.jpg">
+          <h3>Luxury Apartment</h3>
+          <p>$1,200/month | 2 Beds, 2 Baths</p>
+        </div>
+        <div class="property-card">
+          <img src="pic_trulli.jpg" alt="img_girl.jpg">
+          <h3>Cozy House</h3>
+          <p>$2,500/month | 4 Beds, 3 Baths</p>
+        </div>
+        <!-- Add more properties as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Property Management</li>
+        <li>Rent Collection</li>
+        <li>Maintenance Services</li>
+        <li>Property Marketing</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We have over 10 years of experience in property management...</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="/submit" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Property Management Co. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
